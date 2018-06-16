@@ -1,0 +1,4 @@
+#Sat Jun 09 11:06:59 ICT 2018
+base.0=/Users/quangnguyen/Desktop/test/QuanLySV/android/app/build/intermediates/transforms/dex/release/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/quangnguyen/Desktop/test/QuanLySV/android/app/build/intermediates/transforms/dex/release/folders/1000/1f/main/classes.dex

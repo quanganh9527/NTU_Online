@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/quangnguyen/.android/build-cache/e485e1dd800559208b671fdee7b24db8d516b267/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="/Users/quangnguyen/Desktop/test/QuanLySV/android/app/build/intermediates/pre-dexed/debug/classes_4bef4a7db44a2077bcb13fe22e64b13e94988362.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnguyen/.android/build-cache/ae1a4f520f192615a7beb99697e6bbb81728149f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="/Users/quangnguyen/Desktop/test/QuanLySV/android/app/build/intermediates/pre-dexed/debug/classes_44e49fe15057deb13bef1de45d15eec5f1ddcb0e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnguyen/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/quangnguyen/Desktop/test/QuanLySV/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_503a54a39a28217444fa5da6b9e0f843c0050980.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnguyen/.android/build-cache/548ad328ae7944533360246839f55857d7def718/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="/Users/quangnguyen/Desktop/test/QuanLySV/android/app/build/intermediates/pre-dexed/debug/classes_107a299891c8713d7fb6fdefe46a151bda5a3ec1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnguyen/.android/build-cache/6e05a5d176450d3b5be772ffd651cae38fb60933/output/jars/libs/infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="/Users/quangnguyen/Desktop/test/QuanLySV/android/app/build/intermediates/pre-dexed/debug/infer-annotations-4.0_3392f478f5e7336bd4d913a9b0a7b68352fc23a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnguyen/.android/build-cache/2760a64b541f031a90e4bc8869e87b935e01f372/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="/Users/quangnguyen/Desktop/test/QuanLySV/android/app/build/intermediates/pre-dexed/debug/classes_3f283ab1ad9fc1d185277fd61c845e75138f908d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnguyen/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/quangnguyen/Desktop/test/QuanLySV/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_503a54a39a28217444fa5da6b9e0f843c0050980.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnguyen/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/quangnguyen/Desktop/test/QuanLySV/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_b12a3c802d640dfd06994480f04d0fa738282e15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnguyen/.android/build-cache/bc58554c2d30c5a9911f9d4a97bc7f2de4a9fbcd/output/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/quangnguyen/Desktop/test/QuanLySV/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_2415d330c77d512e37986d3b91784ac90aed7f0b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnguyen/.android/build-cache/e69868f6761fd182356b827c9b6f406b3d7d2e52/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="/Users/quangnguyen/Desktop/test/QuanLySV/android/app/build/intermediates/pre-dexed/debug/classes_e81babea01e7543598c112d29436809ba3e9a15e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnguyen/.android/build-cache/6f898ad95aa981e21f3ee70f1cc57116486fe4ab/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="/Users/quangnguyen/Desktop/test/QuanLySV/android/app/build/intermediates/pre-dexed/debug/classes_4a0589962d5a0e1169fa7058ccbf366cd34654e0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnguyen/.android/build-cache/aea139b89b4e07c32eb03ebbd6bbd24d479633db/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/quangnguyen/Desktop/test/QuanLySV/android/app/build/intermediates/pre-dexed/debug/classes_051aa0974960a282289bb523da00569e21203b8f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnguyen/.android/build-cache/ab3d6a86647d8bcd91cbf245944d80afdc8cfda5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="/Users/quangnguyen/Desktop/test/QuanLySV/android/app/build/intermediates/pre-dexed/debug/classes_3c9e617be46fa27364eacfe68c2e0afe19a7c2de.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnguyen/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/quangnguyen/Desktop/test/QuanLySV/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_8d5f6efebcd4217aae9588c4ed7f31a89c1ad0f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnguyen/.android/build-cache/5841927b6cdd985d05aa5aac3cfa444f38516ffa/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="/Users/quangnguyen/Desktop/test/QuanLySV/android/app/build/intermediates/pre-dexed/debug/classes_2758aac84b199015a9686d2503f69196e36c8748.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnguyen/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/quangnguyen/Desktop/test/QuanLySV/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_23cbcea15a5debc00ab6432723f7a1dc628452f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnguyen/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/quangnguyen/Desktop/test/QuanLySV/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_3bffc34a3d2dcfce4f57fe71f570b14f456f5ace.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnguyen/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/quangnguyen/Desktop/test/QuanLySV/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_868c15f93b7d97bdae8f3845c0a274b5f50a745c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnguyen/.android/build-cache/bc58554c2d30c5a9911f9d4a97bc7f2de4a9fbcd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/quangnguyen/Desktop/test/QuanLySV/android/app/build/intermediates/pre-dexed/debug/classes_99a81202c61d7ed5bfd91c1fef3170f1d3c9505d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnguyen/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.0/5871fb60dc68d67da54a663c3fd636a10a532948/jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="/Users/quangnguyen/Desktop/test/QuanLySV/android/app/build/intermediates/pre-dexed/debug/jsr305-3.0.0_23cbcea15a5debc00ab6432723f7a1dc628452f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnguyen/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/quangnguyen/Desktop/test/QuanLySV/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_835545019643390b7aad8592fc213bf102852af4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnguyen/.gradle/caches/modules-2/files-2.1/com.facebook.fbui.textlayoutbuilder/staticlayout-proxy/1.0/f162442a19fff13995fbd51ba414d9ee05579080/staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="/Users/quangnguyen/Desktop/test/QuanLySV/android/app/build/intermediates/pre-dexed/debug/staticlayout-proxy-1.0_b12a3c802d640dfd06994480f04d0fa738282e15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnguyen/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/quangnguyen/Desktop/test/QuanLySV/android/app/build/intermediates/pre-dexed/debug/javax.inject-1_8d5f6efebcd4217aae9588c4ed7f31a89c1ad0f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnguyen/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/Users/quangnguyen/Desktop/test/QuanLySV/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_0cade7d3189e52b79ca0eeff17f091cdbf02a1b4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnguyen/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/quangnguyen/Desktop/test/QuanLySV/android/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_835545019643390b7aad8592fc213bf102852af4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnguyen/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.13.0/a9283170b7305c8d92d25aff02a6ab7e45d06cbe/okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="/Users/quangnguyen/Desktop/test/QuanLySV/android/app/build/intermediates/pre-dexed/debug/okio-1.13.0_3bffc34a3d2dcfce4f57fe71f570b14f456f5ace.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnguyen/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/quangnguyen/Desktop/test/QuanLySV/android/app/build/intermediates/pre-dexed/debug/okhttp-3.6.0_868c15f93b7d97bdae8f3845c0a274b5f50a745c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnguyen/.android/build-cache/6e05a5d176450d3b5be772ffd651cae38fb60933/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="79211dda47231d54c25be9dcde75cb3a4832e032">
+        <dex dex="/Users/quangnguyen/Desktop/test/QuanLySV/android/app/build/intermediates/pre-dexed/debug/classes_c0e8e2bb3a6c45961a8953b2abfcd38bc131c633.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/quangnguyen/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp-urlconnection/3.6.0/3f9b16b774f2c36cfd86dd2053d0b3059531dacc/okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="/Users/quangnguyen/Desktop/test/QuanLySV/android/app/build/intermediates/pre-dexed/debug/okhttp-urlconnection-3.6.0_0cade7d3189e52b79ca0eeff17f091cdbf02a1b4.jar" />
+    </item>
+
+</items>

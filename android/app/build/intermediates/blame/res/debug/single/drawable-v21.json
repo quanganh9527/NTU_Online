@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/quangnguyen/Desktop/test/QuanLySV/android/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/quangnguyen/.android/build-cache/aea139b89b4e07c32eb03ebbd6bbd24d479633db/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/quangnguyen/Desktop/test/QuanLySV/android/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/quangnguyen/.android/build-cache/aea139b89b4e07c32eb03ebbd6bbd24d479633db/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    }
+]
