@@ -26,6 +26,10 @@ export default class SVLogin extends Component {
         const { navigation } = this.props;
         navigation.navigate('Schedule', navigation);
     }
+    gotoSeach() {
+        const { navigation } = this.props;
+        navigation.navigate('Seach', navigation);
+    }
     render() {
         const { navigation } = this.props;
         return (

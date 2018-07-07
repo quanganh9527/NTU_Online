@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {View} from 'react-native'
 import Drawer from 'react-native-drawer';
 import Home from '../Home/Home';
 import ScreenMenu from './ScreenMenu';
@@ -18,8 +19,8 @@ class SlideMenu extends Component {
                 openDrawerOffset={100}
                 content={<ScreenMenu navigation={this.props.navigation} />}
             >
-                <Home open={this.openControlPanel.bind(this)} />
-            </Drawer>
+                <Home open={this.openControlPanel.bind(this)} navigation={this.props.navigation}  />
+             </Drawer>
         );
     }
 }

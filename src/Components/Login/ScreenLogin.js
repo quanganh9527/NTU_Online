@@ -102,6 +102,7 @@ class ScreenLogin extends Component {
                         <Text style={{ fontSize: 15 }}>Đăng Nhập</Text>
                     </TouchableOpacity>
                 </View>
+                <Text>NTU Online Version 1.0</Text>
             </View>
         );
     }

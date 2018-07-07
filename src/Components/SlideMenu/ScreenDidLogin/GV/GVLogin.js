@@ -24,6 +24,10 @@ export default class GVLogin extends Component {
         const {navigation} = this.props;
         navigation.navigate('Info',navigation);
     }
+    gotoSeach() {
+        const { navigation } = this.props;
+        navigation.navigate('Seach', navigation);
+    }
     render() {
         const { navigation } = this.props;
         return (
@@ -36,6 +40,9 @@ export default class GVLogin extends Component {
                 </TouchableOpacity>
                 <TouchableOpacity onPress={() => this.gotoInfo()} style={stylesview.Buttonlogin}>
                     <Text style={{ fontSize: 15 }}>Thông Tin Giáo Viên</Text>
+                </TouchableOpacity>
+                <TouchableOpacity onPress={() => this.gotoSeach()} style={stylesview.Buttonlogin}>
+                    <Text style={{ fontSize: 15 }}>Tìm Kiếm Sinh Viên</Text>
                 </TouchableOpacity>
                 <TouchableOpacity onPress={() => SetToken('@Token','').then(() => {
                     navigation.navigate('SlideMenu')

@@ -8,6 +8,8 @@ import AddInfo from './Components/SlideMenu/ScreenDidLogin/GV/AddInfo';
 import InfoManage from './Components/SlideMenu/ScreenDidLogin/GV/InfoManage';
 import PointManage from './Components/SlideMenu/ScreenDidLogin/GV/Point/PointManage';
 import Schedule from './Components/SlideMenu/ScreenDidLogin/SV/Schedule/Schedule';
+import DetailPost from './Components/Home/DetailPost';
+import Seach from './Components/Home/Seach'
 const Navigations = StackNavigator({
     SlideMenu: {
         screen: SlideMenu,
@@ -57,5 +59,18 @@ const Navigations = StackNavigator({
             header: null
         }
     },
+    DetailPost: {
+        screen: DetailPost,
+        navigationOptions: {
+            header: null
+        }
+    },
+    Seach: {
+        screen: Seach,
+        navigationOptions: {
+            header: null
+        }
+    },
+    
 });
 export default Navigations;

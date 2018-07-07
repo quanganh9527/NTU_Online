@@ -3,8 +3,8 @@ import width from './GetScreen';
 import { StyleSheet } from 'react-native';
 const stylesicon = StyleSheet.create({
     logo: {
-        height: height / 4,
-        width: width /4,
+        height: height / 2,
+        width: width /2,
     },
     icon:{
         height: height/10,

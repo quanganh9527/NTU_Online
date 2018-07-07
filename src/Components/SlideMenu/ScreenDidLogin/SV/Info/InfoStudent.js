@@ -30,19 +30,19 @@ class InfoStudent extends Component {
         const { navigation } = this.props;
         const { hoten, lop, ngaysinh, noisinh, chuyennghanh, gioitinh, MSSV, arr, permissiion } = this.state;
         const show = permissiion == 'sv' ?
-            <View style={[styles.item, { backgroundColor: '#EBEBEB' }]}>
+            <View style={[styles.item,{backgroundColor: '#EBEBEB',}]}>
                 <Text style={{ flex: 1, fontSize: width / 20, fontWeight: 'bold' }}>Lớp</Text>
                 <Text style={{ flex: 1.5, fontSize: width / 20 }}>{arr[8]}</Text>
             </View>: null;
         return (
             <View style={{ marginTop: Platform.OS === 'ios' ? height / 20 : 0, flex: 1, backgroundColor: 'white' }}>
                 <Header image={Back} text="Thông Tin" navigation={navigation} />
-                <View style={{ marginLeft: 10 }}>
-                    <View style={[styles.item, { backgroundColor: '#EBEBEB' }]}>
+                <View style={{ }}>
+                    <View style={[styles.item,{backgroundColor: '#EBEBEB',} ]}>
                         <Text style={{ flex: 1, fontSize: width / 20, fontWeight: 'bold' }}>Họ Tên: </Text>
                         <Text style={{ flex: 1.5, fontSize: width / 20 }}>{arr[9]}</Text>
                     </View>
-                    <View style={styles.item}>
+                    <View style={[styles.item, ]}>
                         <Text style={{ flex: 1, fontSize: width / 20, fontWeight: 'bold' }}>{permissiion === 'sv' ? 'MSSV: ' : 'MSGV: '}</Text>
                         <Text style={{ flex: 1.5, fontSize: width / 20 }}>{arr[0]}</Text>
                     </View>
@@ -51,15 +51,15 @@ class InfoStudent extends Component {
                         <Text style={{ flex: 1, fontSize: width / 20, fontWeight: 'bold' }}>Ngày sinh: </Text>
                         <Text style={{ flex: 1.5, fontSize: width / 20 }}>{arr[7]}</Text>
                     </View>
-                    <View style={[styles.item, { backgroundColor: '#EBEBEB' }]}>
+                    <View style={[styles.item, {backgroundColor: '#EBEBEB',}]}>
                         <Text style={{ flex: 1, fontSize: width / 20, fontWeight: 'bold' }}>{permissiion === 'sv' ? 'Chuyên nghành: ' : 'Chức danh: '}</Text>
                         <Text style={{ flex: 1.5, fontSize: width / 20 }}>{arr[5]}</Text>
                     </View>
                     <View style={styles.item}>
                         <Text style={{ flex: 1, fontSize: width / 20, fontWeight: 'bold' }}>Giới tính: </Text>
-                        <Text style={{ flex: 1.5, fontSize: width / 20 }}>{arr[3] ? "Nam" : "Nữ"}</Text>
+                        <Text style={{ flex: 1.5, fontSize: width / 20 }}>{arr[3]}</Text>
                     </View>
-                    <View style={[styles.item, { backgroundColor: '#EBEBEB' }]}>
+                    <View style={[styles.item,{backgroundColor: '#EBEBEB',} ]}>
                         <Text style={{ flex: 1, fontSize: width / 20, fontWeight: 'bold' }}>Nơi sinh: </Text>
                         <Text style={{ flex: 1.5, fontSize: width / 20 }}>{arr[6]}</Text>
                     </View>
@@ -76,8 +76,15 @@ const styles = StyleSheet.create({
         backgroundColor: 'blue',
     },
     item: {
-        flexDirection: 'row'
-    }
+        flexDirection: 'row',
+        // borderBottomWidth:0.5,
+        alignItems:'center',
+        marginLeft:5,
+        marginTop:5,
+        marginRight:5,
+        height:height/8,
+        // borderBottomColor:'#EBEBEB',
+    },
 });
 function mapstate(state) {
     return {

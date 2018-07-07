@@ -6,35 +6,35 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		QZTsC06XCDFfYlCMtaUMRMUdeGQ=
+		KdqG7f1l18MZoyXBkEgWAOtks48=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
 		<data>
-		zEroulIbyKYhB4EbtbeI4PBJfIQ=
+		8CN5cCzwKl0+7ieNPMN/SawZQA8=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/Info.plist</key>
 		<data>
-		ILcX7tpm7WV44s/pfwloERQhInY=
+		Cwsl4MoHt6dTvyYXRy5C2x7Kd88=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/_CodeSignature/CodeResources</key>
 		<data>
-		ffllRjJXzZiQRVS7G4xDUtlIio8=
+		UU+vWjYvpE8lKAxV1lE2tUbIZA0=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/version.plist</key>
 		<data>
-		aW8T+OYkAq9p7ODvVF4KxOWxpo4=
+		znuKt4UiTOJWwzrlgwaYX94o/a4=
 		</data>
 		<key>Frameworks/XCTest.framework/Info.plist</key>
 		<data>
-		53QH0QrAmT2lt1KIweV2nkJMArY=
+		uPxPInP5h9+ERgCm8NCXpuuMEmg=
 		</data>
 		<key>Frameworks/XCTest.framework/XCTest</key>
 		<data>
-		Gdkq4my/W+Wncmm9H9gSiFdlbus=
+		aHoR6mqqp0XWLqiw49+MRuFNQLk=
 		</data>
 		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
 		<data>
-		NZVWBiJdSoWtOlI5zY2P2Y+YauE=
+		2JoYDV6DTsckEmF+l3Ruo1S1Iqk=
 		</data>
 		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
 		<dict>
@@ -47,11 +47,11 @@
 		</dict>
 		<key>Frameworks/XCTest.framework/version.plist</key>
 		<data>
-		0KaQXY+RwumYiFnS4CGdkt22Bi0=
+		DmGu9k7yBOLSfwtyNbn3zYir630=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		SwDSr2cRBaNOLyYgm/tsqVHH8Nc=
+		YzMH2mf2V0PTceL/3e5XqslVEXE=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -63,19 +63,19 @@
 		</data>
 		<key>PlugIns/QuanLySVTests.xctest.dSYM/Contents/Resources/DWARF/QuanLySVTests</key>
 		<data>
-		FDkV6DJJF7i41ju+PZ/cOhGx+nw=
+		MqS96t9efmXoQYnHCwUuYkH01qs=
 		</data>
 		<key>PlugIns/QuanLySVTests.xctest/Info.plist</key>
 		<data>
-		f18t2H4WRXz4mJJhBl8PrQ33swQ=
+		CEzrZQXIWWr/8P770l4AxuIA/IA=
 		</data>
 		<key>PlugIns/QuanLySVTests.xctest/QuanLySVTests</key>
 		<data>
-		lXqXeUWb/J/lPnNV73He8tTcXq4=
+		r9dauES810Fc4NRFFwoHX2Ob4hY=
 		</data>
 		<key>PlugIns/QuanLySVTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
-		wWJ4So+sfOqPColHJWvZwJd2f7Q=
+		9jDxhhYde0YnxEoakyf+Z4GB+x8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -84,88 +84,88 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QZTsC06XCDFfYlCMtaUMRMUdeGQ=
+			KdqG7f1l18MZoyXBkEgWAOtks48=
 			</data>
 			<key>hash2</key>
 			<data>
-			OiyXv/zBLD+sUxwInO3wvDtKK4tPcYYknYCWT8PuzEM=
+			EzXgtuoE49FKGaMOBcBIdmHg0L4w8MlGFQMswdblSlw=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zEroulIbyKYhB4EbtbeI4PBJfIQ=
+			8CN5cCzwKl0+7ieNPMN/SawZQA8=
 			</data>
 			<key>hash2</key>
 			<data>
-			k3oG3JgiJzmPGN2TBMBkuyJgDmP+UIM/xucTOritTmg=
+			/R1Uy1RZ7ljX2V8ZHMhD4g8ieWHns9sj34YDK2McvfY=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ILcX7tpm7WV44s/pfwloERQhInY=
+			Cwsl4MoHt6dTvyYXRy5C2x7Kd88=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ni1kZDOWsRpvUPjR5NX8S4YQkTYRbjePJj2u7AuQarU=
+			IvG0kD54lYvEZzfjVmXtrtBdydTUy1uFZkZXUddfTzY=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ffllRjJXzZiQRVS7G4xDUtlIio8=
+			UU+vWjYvpE8lKAxV1lE2tUbIZA0=
 			</data>
 			<key>hash2</key>
 			<data>
-			qDy6gvbQtnrvRUofzsvKB03JHKPL5BYSAPtJhslCor4=
+			Ja3vToXIdN/BmsoAh4U4btDVl5lKbzndKf99CyxV6K4=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/version.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aW8T+OYkAq9p7ODvVF4KxOWxpo4=
+			znuKt4UiTOJWwzrlgwaYX94o/a4=
 			</data>
 			<key>hash2</key>
 			<data>
-			WeHiD6FVZLf1eqm7LA/lcvuqa2Z+RmYEi3Zi/N05M40=
+			napzzKlhgK6Qoqz8QO+9TkyuIsW5V+s6GmClALe2lT4=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			53QH0QrAmT2lt1KIweV2nkJMArY=
+			uPxPInP5h9+ERgCm8NCXpuuMEmg=
 			</data>
 			<key>hash2</key>
 			<data>
-			W8gDydyYsnKks91l6E6mE/LHCHyTKjEQUmuqbttIm98=
+			N77/gSJpnPT4ryPaR4IJ55aYyiiMCKjlq79qrCmGxU8=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/XCTest</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Gdkq4my/W+Wncmm9H9gSiFdlbus=
+			aHoR6mqqp0XWLqiw49+MRuFNQLk=
 			</data>
 			<key>hash2</key>
 			<data>
-			1hGMjSnYIuGWvQ8i/bOJDKCFrhrl6q7tYN9xqYAUZrA=
+			unqlGEn5cq6B36PWWq/mAoeeub7L9yZ3vWK7mP9EscQ=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NZVWBiJdSoWtOlI5zY2P2Y+YauE=
+			2JoYDV6DTsckEmF+l3Ruo1S1Iqk=
 			</data>
 			<key>hash2</key>
 			<data>
-			4iNtj3HNym8ZSwZTfV6Oa7/IuUDba8eMxDAqB4NPIUU=
+			OXS9XX1oATlfFoPHZbc7OGt7HUXfXzNrCz28TkkBo/g=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
@@ -185,11 +185,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0KaQXY+RwumYiFnS4CGdkt22Bi0=
+			DmGu9k7yBOLSfwtyNbn3zYir630=
 			</data>
 			<key>hash2</key>
 			<data>
-			xDe7lkxC6ot8QncGaSp6qZ9/XbOQA/fGkPvRG+5ksCo=
+			2hnwNPgdaewT28DbTqe0Gpaccdc2akBF8IjnGtISc58=
 			</data>
 		</dict>
 		<key>PlugIns/QuanLySVTests.xctest.dSYM/Contents/Info.plist</key>
@@ -207,44 +207,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FDkV6DJJF7i41ju+PZ/cOhGx+nw=
+			MqS96t9efmXoQYnHCwUuYkH01qs=
 			</data>
 			<key>hash2</key>
 			<data>
-			XOvuwkmGhgUx7KDzf0U2mZbg2O47TqbQoMXmydmwIAM=
+			natGEhADgL2pHFqYRSU/ePaWuoInht5iLTAoKIQLG8E=
 			</data>
 		</dict>
 		<key>PlugIns/QuanLySVTests.xctest/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			f18t2H4WRXz4mJJhBl8PrQ33swQ=
+			CEzrZQXIWWr/8P770l4AxuIA/IA=
 			</data>
 			<key>hash2</key>
 			<data>
-			TK9RJ3FC1MOWCGg1BKHzcY/Dn3UiBfnnaYV+CySPojc=
+			58Nn3aE6uRbGySo8z9zAf7mfZoa1+fHemXUaqpsMxog=
 			</data>
 		</dict>
 		<key>PlugIns/QuanLySVTests.xctest/QuanLySVTests</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lXqXeUWb/J/lPnNV73He8tTcXq4=
+			r9dauES810Fc4NRFFwoHX2Ob4hY=
 			</data>
 			<key>hash2</key>
 			<data>
-			A6VTOSEX9v0iqmqrUVqzWttagOH5DxSIBZQil38oTm8=
+			r3lsoeyMMd1JJXl5im4JB79RMLoHnig34kthz7ryXl4=
 			</data>
 		</dict>
 		<key>PlugIns/QuanLySVTests.xctest/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wWJ4So+sfOqPColHJWvZwJd2f7Q=
+			9jDxhhYde0YnxEoakyf+Z4GB+x8=
 			</data>
 			<key>hash2</key>
 			<data>
-			KnYTc19/41yVB2HTBb4S0Uge80kolacdAD4jxU74Jng=
+			lR/2hq1mloXl+x0al+7qlyhr2R4mAmYwQdjsiZRkbPU=
 			</data>
 		</dict>
 	</dict>

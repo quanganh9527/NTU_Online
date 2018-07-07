@@ -7,6 +7,7 @@ import show1 from '../../../../../media/icon/Info/show1.png';
 import styleview from '../../../../../Styles/StyleView';
 import stylesicon from '../../../../../Styles/StyleIcon';
 import height from '../../../../../Styles/GetScreen';
+import LoadingView from 'react-native-loading-view';
 import width from '../../../../../Styles/GetScreen';
 import PostPoint from '../../../../../Api/PostPoint';
 import PutPoint from '../../../../../Api/PutPoint';
@@ -14,8 +15,8 @@ const url = "http://59d2419a0ecfcb0011fd4c2b.mockapi.io/user";
 import deletee from '../../../../../media/icon/Info/delete.png';
 const urlpoint = "http://59d2419a0ecfcb0011fd4c2b.mockapi.io/ListPoint/";
 const points = {
-    name: '',
-    point: '',
+    TenMH: '',
+    Diem: '',
     tc: ''
 }
 export default class AddPoint extends Component {
@@ -31,10 +32,9 @@ export default class AddPoint extends Component {
             namee: '',
             idd: '',
             arrADD: [],
+            show: false,
         };
-        FetchArray(url).then(res => {
-            this.setState({ arrUser: res });
-        })
+
     }
     ShowAlert(text) {
         Alert.alert(
@@ -47,12 +47,14 @@ export default class AddPoint extends Component {
         )
     }
     componentDidMount() {
-
+        FetchArray(url).then(res => {
+            this.setState({ arrUser: res });
+        })
     }
     clickOke() {
         const { pointt, tcc, namee, arrPoint } = this.state;
         if (tcc !== '' && pointt !== '' && namee !== '') {
-            arrPoint.push(points = { name: namee, point: pointt, tc: tcc, id: arrPoint.length !== null ? arrPoint.length + 1 : 1 });
+            arrPoint.push(points = { TenMH: namee, Diem: pointt, tc: tcc, id: arrPoint.length !== null ? arrPoint.length + 1 : 1 });
             this.setState({
                 namee: '', tcc: '', pointt: ''
             })
@@ -60,13 +62,14 @@ export default class AddPoint extends Component {
 
     }
     checkMSSV() {
+        this.setState({show:true});
         for (i of this.state.arrUser) {
             if (this.state.input === '')
                 return this.ShowAlert('Mời Nhập MSSV');
             else if (this.state.input === i.username) {
                 this.setState({ idd: i.id });
                 return FetchArray(urlpoint + i.id).then(res => {
-                    return this.setState({ arrPoint: res.listpoint });
+                    return this.setState({ arrPoint: res.listpoint,show: false });
                 });
             }
         }
@@ -98,10 +101,10 @@ export default class AddPoint extends Component {
         })
     }
     render() {
-        const { arrPoint } = this.state;
+        const { arrPoint, show } = this.state;
         return (
-            <View style={{ marginLeft: 10, flex: 1 }}>
-                <View style={{ flex: 1 }}>
+            <View style={{ flex: 1 }}>
+                <View style={{ marginLeft: 10, marginRight: 10, flex: 1 }}>
                     <View style={{ flex: 1, flexDirection: 'row', marginTop: 10, alignItems: 'center' }}>
                         <TextInput
                             style={[styleview.inputlogin, { flex: 1.5 }]}
@@ -140,56 +143,69 @@ export default class AddPoint extends Component {
                                 placeholder='Điểm'
                             />
                         </View>
-                        <TouchableOpacity style={[styleview.Buttonlogin, { backgroundColor: '#00CCFF' }]} onPress={() => this.clickOke()}>
-                            <Text>Thêm</Text>
+                        <TouchableOpacity style={[styleview.Buttonlogin, { backgroundColor: '#6A5ACD' }]} onPress={() => this.clickOke()}>
+                            <Text style={{color:'white',fontWeight: 'bold',}}>Thêm</Text>
                         </TouchableOpacity>
                     </View>
-                    <View style={[styles.item, { flex: 1, alignItems: 'center', justifyContent: 'space-between' }]}>
-                        <View style={{ flex: 1 }}>
-                            <Text style={{ fontSize: width / 20, fontWeight: 'bold' }}>Tên Môn Học</Text>
-                        </View>
-                        <View style={{ flex: 1, alignItems: 'center' }}>
-                            <Text style={{ fontSize: width / 20, fontWeight: 'bold' }}>Số Tín Chỉ</Text>
-                        </View>
-                        <View style={{ flex: 1, alignItems: 'center' }}>
-                            <Text style={{ fontSize: width / 20, fontWeight: 'bold' }}>Điểm</Text>
-                        </View>
-                    </View>
+
                 </View>
-                <FlatList
-                    style={{ flex: 7 }}
-                    data={arrPoint}
-                    renderItem={({ item }) => (
-                        <View style={{ flex: 1, flexDirection: 'row' }}>
-                            <View style={{ flex: 1, flexDirection: 'column' }}>
-                                <Text >{item.name}</Text>
-                            </View>
-                            <View style={{ flex: 1, alignItems: 'center', flexDirection: 'column' }}>
-                                <Text>{item.tc}</Text>
-                            </View>
-                            <View style={{ flex: 1, flexDirection: 'column', alignItems: 'center' }}>
-                                <Text >{item.point}</Text>
-                            </View>
-                            <TouchableOpacity onPress={() => {
-                                var a = [] ;
-                                for( let i of arrPoint){
-                                        if(i.id !== item.id )
-                                            a.push(i);
+                <LoadingView overlay='true' size='large' loading={show}>
+                    <FlatList
+                        style={{ flex: 10 }}
+                        data={arrPoint}
+                        renderItem={({ item }) => (
+                            <View>
+                                {
+                                    item.TenMH === '' ?
+                                        <View>
+                                            <View style={styles.tieude}>
+                                                <Text style={styles.textt}>{item.hk}</Text>
+                                            </View>
+                                            <View style={[styles.item, { alignItems: 'center', justifyContent: 'space-between', backgroundColor: '#1C5B96' }]}>
+                                                <Text style={{ flex: 2.5, fontSize: width / 20, fontWeight: 'bold', color: 'white' }}>Tên Môn Học</Text>
+                                                <View style={{ flex: 1, alignItems: 'center' }}>
+                                                    <Text style={{ flex: 1, fontSize: width / 20, fontWeight: 'bold', color: 'white' }}>Tín Chỉ</Text>
+                                                </View>
+                                                <View style={{ flex: 1, alignItems: 'center' }}>
+                                                    <Text style={{ flex: 1, fontSize: width / 20, fontWeight: 'bold', color: 'white' }}>Điểm</Text>
+                                                </View>
+                                                <View style={{ flex: 0.2 }}></View>
+                                            </View>
+                                        </View>
+                                        :
+                                        <View style={{ flex: 1, flexDirection: 'row' }}>
+                                            <View style={{ flex: 2.5, flexDirection: 'column' }}>
+                                                <Text >{item.TenMH}</Text>
+                                            </View>
+                                            <View style={{ flex: 1, alignItems: 'center', flexDirection: 'column' }}>
+                                                <Text>{item.tc}</Text>
+                                            </View>
+                                            <View style={{ flex: 1, flexDirection: 'column', alignItems: 'center' }}>
+                                                <Text >{item.Diem}</Text>
+                                            </View>
+                                            <TouchableOpacity onPress={() => {
+                                                var a = [];
+                                                for (let i of arrPoint) {
+                                                    if (i.id !== item.id)
+                                                        a.push(i);
+                                                }
+                                                return this.setState({ arrPoint: a });
+
+                                            }}>
+                                                <Image
+                                                    style={{ flex: 0.2, height: height / 14, width: width / 14 }}
+                                                    source={deletee} />
+                                            </TouchableOpacity>
+                                        </View>
                                 }
-                                return this.setState({arrPoint:a});
-                                
-                            }}>
-                                <Image
-                                    style={{ flex: 0.2, height: height / 14, width: width / 14 }}
-                                    source={deletee} />
-                            </TouchableOpacity>
-                        </View>
-                    )}
-                    keyExtractor={(index) => index}
-                />
+                            </View>
+                        )}
+                        keyExtractor={(item, index) => index.toString()}
+                    />
+                </LoadingView>
                 <View style={{ flex: 0.5, alignItems: 'center' }}>
-                    <TouchableOpacity style={[styleview.Buttonlogin, { backgroundColor: '#00CCFF' }]} onPress={() => this.click()}>
-                        <Text>Cập Nhập</Text>
+                    <TouchableOpacity style={[styleview.Buttonlogin, { backgroundColor: '#6A5ACD' }]} onPress={() => this.click()}>
+                        <Text style={{color:'white',fontWeight: 'bold',}}>Cập Nhập</Text>
                     </TouchableOpacity>
                 </View>
             </View>
@@ -206,5 +222,17 @@ const styles = StyleSheet.create({
     },
     item: {
         flexDirection: 'row'
+    },
+    tieude: {
+        backgroundColor: '#1C5B96',
+        borderWidth: 4,
+        borderColor: 'white',
+        padding: 2,
+        alignItems: 'center',
+    },
+    textt: {
+        // borderWidth: 900,
+        color: 'white',
+        fontWeight: 'bold',
     }
 });

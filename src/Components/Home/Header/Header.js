@@ -30,7 +30,7 @@ export default class Header extends Component {
         const { image,text } = this.props;
         const checkstyle = image === menuon ? styless.icon : styless.iconback;
         return (
-            <View style={styles.View}>
+            <View style={[styles.View,{}]}>
                 <TouchableOpacity style={{flex:1}} onPress={() => this.clickImage()}>
                     <Image style={checkstyle} source={image} />
                 </TouchableOpacity>

@@ -31,7 +31,10 @@ class PointTable extends Component {
         // });
     }
     componentDidMount() {
-        GetToken('@idinfo').then(res => FetchArray(urlpoint + res).then(res => this.setState({ arr: res, show: false })));
+        GetToken('@idinfo').then(res => FetchArray(urlpoint + res).then(res => {
+            this.setState({ arr: res, show: false });
+        }
+        ));
 
     }
     render() {
@@ -40,36 +43,48 @@ class PointTable extends Component {
         return (
             <View style={{ marginTop: Platform.OS === 'ios' ? height / 20 : 0, flex: 1, backgroundColor: 'white' }}>
                 <Header image={Back} text="Bảng Điểm" navigation={navigation} />
-                <View style={[styles.item, {alignItems: 'center', justifyContent: 'space-between',backgroundColor: '#1C5B96' }]}>                        
-                            <Text style={{ flex: 2, fontSize: width / 20, fontWeight: 'bold',color:'white' }}>Tên Môn Học</Text>
-                        <View style={{ flex: 1, alignItems: 'center' }}>
-                            <Text style={{ flex: 1, fontSize: width / 20, fontWeight: 'bold',color:'white' }}>Số Tín Chỉ</Text>
-                        </View>
-                        <View style={{ flex: 1, alignItems: 'center' }}>
-                            <Text style={{ flex: 1, fontSize: width / 20, fontWeight: 'bold',color:'white' }}>Điểm</Text>
-                        </View>
-                    </View>
                 <LoadingView overlay='true' size='large' loading={show}>
-                    <View style={{ flex: 1 }}>
+                    
+
                         <FlatList
-                            style={{ flex: 1 }}
+                        
                             data={arr.listpoint}
                             renderItem={({ item }) => (
-                                <View style={{ backgroundColor: item.id % 2 == '0' ? '#EBEBEB' : 'white', height: 40, flex: 1, flexDirection: 'row', alignItems: 'center' }}>
-                                    <View style={{ flex: 2, flexDirection: 'column' }}>
-                                        <Text >{item.name}</Text>
-                                    </View>
-                                    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', justifyContent: 'center' }}>
-                                        <Text>{item.tc}</Text>
-                                    </View>
-                                    <View style={{ alignItems: 'center', justifyContent: 'center', flex: 1, justifyContent: 'center' }}>
-                                        <Text >{item.point}</Text>
-                                    </View>
+                                <View >
+                                    {
+                                        item.TenMH === '' ?
+                                            <View>
+                                                <View style={styles.tieude}>
+                                                    <Text style={styles.textt}>{item.hk}</Text>
+                                                </View>
+                                                <View style={[styles.item, { alignItems: 'center', justifyContent: 'space-between', backgroundColor: '#1C5B96' }]}>
+                                                    <Text style={{ flex: 2, fontSize: width / 20, fontWeight: 'bold', color: 'white' }}>Tên Môn Học</Text>
+                                                    <View style={{ flex: 1, alignItems: 'center' }}>
+                                                        <Text style={{ flex: 1, fontSize: width / 20, fontWeight: 'bold', color: 'white' }}>Số Tín Chỉ</Text>
+                                                    </View>
+                                                    <View style={{ flex: 1, alignItems: 'center' }}>
+                                                        <Text style={{ flex: 1, fontSize: width / 20, fontWeight: 'bold', color: 'white' }}>Điểm</Text>
+                                                    </View>
+                                                </View>
+                                            </View>
+                                            :
+                                            <View style={{ backgroundColor: item.id % 2 == '0' ? '#EBEBEB' : 'white', height: height/10, flex: 1, flexDirection: 'row', alignItems: 'center' }}>
+                                                <View style={{ flex: 2, flexDirection: 'column' }}>
+                                                    <Text >{item.TenMH}</Text>
+                                                </View>
+                                                <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', justifyContent: 'center' }}>
+                                                    <Text>{item.tc}</Text>
+                                                </View>
+                                                <View style={{ alignItems: 'center', justifyContent: 'center', flex: 1, justifyContent: 'center' }}>
+                                                    <Text >{item.Diem}</Text>
+                                                </View>
+                                            </View>
+                                    }
                                 </View>
                             )}
-                            keyExtractor={(index) => index}
+                            keyExtractor={(item, index) => index.toString()}
                         />
-                    </View>
+                    
                 </LoadingView>
             </View>
         );
@@ -84,6 +99,18 @@ const styles = StyleSheet.create({
     },
     item: {
         flexDirection: 'row'
+    },
+    tieude: {
+        backgroundColor: '#1C5B96',
+        borderWidth: 4,
+        borderColor: 'white',
+        padding: 2,
+        alignItems:'center',
+    },
+    textt: {
+        // borderWidth: 900,
+        color: 'white',
+        fontWeight: 'bold',
     }
 });
 function mapstate(state) {
