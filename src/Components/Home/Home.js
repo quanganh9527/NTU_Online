@@ -50,7 +50,7 @@ export default class Home extends Component {
                                     <Image style={styles.hinh} source={{uri:item.image}}/>
                                 </View>
                             </TouchableOpacity>
-                        )}
+                        )} 
                         keyExtractor={(item, index) => index.toString()}
                     />
                 </LoadingView>
